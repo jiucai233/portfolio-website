@@ -4,7 +4,6 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 import { FaGithub } from "react-icons/fa";
-import { Analytics } from "@vercel/analytics/next"
 
 export default async function BlogDetail({ params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params;
