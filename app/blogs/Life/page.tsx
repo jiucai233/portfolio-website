@@ -83,30 +83,6 @@ export default function AcademicList() {
                   <ReactMarkdown 
                     remarkPlugins={[remarkGfm]}
                     components={{
-                      // 自定义代码块渲染
-                      code({ node, className, children, ...props }) {
-                        const match = /language-(\w+)/.exec(className || '');
-                        const language = match ? match[1] : '';
-                        
-                        return match ? (
-                          <SyntaxHighlighter
-                            style={oneDark}
-                            language={language}
-                            PreTag="div"
-                            className="rounded-md text-sm"
-                            {...props}
-                          >
-                            {String(children).replace(/\n$/, '')}
-                          </SyntaxHighlighter>
-                        ) : (
-                          <code 
-                            className="bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded text-sm font-mono text-pink-600 dark:text-pink-400" 
-                            {...props}
-                          >
-                            {children}
-                          </code>
-                        );
-                      },
                       // 自定义链接渲染
                       a: ({ href, children, ...props }) => (
                         <a 
