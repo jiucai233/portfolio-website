@@ -1,7 +1,7 @@
 import MorphingText from "@/components/ui/morphing-text";
 import { FocusCards } from "@/components/ui/focus-cards";
 import Link from "next/link";
-
+import { Analytics } from "@vercel/analytics/next"
 const cards = [
   {
     title: "学术与技术/Academic & Tech",
