@@ -3,7 +3,6 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
-import { Analytics } from "@vercel/analytics/next"
 export default async function BlogDetail({ params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params;
   const mdPath = path.join(process.cwd(), "app/blogs", ...slug, "index.md");

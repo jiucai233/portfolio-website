@@ -33,7 +33,7 @@ export default function AcademicList() {
       <ul>
         {blogs.map(blog => (
           <li key={blog.slug} className="mb-4">
-            <Link href={`/blogs/Project/${blog.slug}`}>
+            <Link href={`/blogs/Academic/${blog.slug}`}>
               <div className="text-xl font-semibold">{blog.title}</div>
               <div className="text-gray-500">{blog.language}</div>
               <div className="flex gap-2 mt-1">
