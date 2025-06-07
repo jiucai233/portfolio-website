@@ -19,26 +19,21 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am studying in Yonsei University{" "}
-        <span className="font-medium">Applied Information Engineering </span>major, 
-        I decided to pursue my passion for programming.{" "}
-        <span className="italic">My favorite part of programming or AI is that </span> 
-        I <span className="underline">love</span> the feeling of making a model to learn 
-        from data, it's like caring a kid and see this kid grows, which gains a lot of sense
-         of accomplishment. My core skill
-        is{" "}
+        I am studying Applied Information Engineering at Yonsei University. I decided to pursue my passion for programming.{" "}
+        <span className="italic">My favorite part of programming and AI is that </span> 
+        I <span className="underline">love</span> the feeling of building a model that learns from data. It's like taking care of a child and watching them grow, which gives me a great sense of accomplishment. My core skills are{" "}
         <span className="font-medium">
-          Python, Pytorch and Computer Vision 
+          Python, PyTorch, and Computer Vision 
         </span>
-        .  I am currently looking for a{" "}
-        <span className="font-medium">Internship</span> as a Data Scientist or AI Engineer.
+        . I am currently looking for an{" "}
+        <span className="font-medium">internship</span> as a Data Scientist or AI Engineer.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and play football. I also enjoy{" "}
-        <span className="font-medium">Photography</span>. You can check the "Photos"
-        section to see more of my photos, hope you enjoy it!
+        video games, watching movies, and playing football. I also enjoy{" "}
+        <span className="font-medium">photography</span>. You can check the "Photos"
+        section to see more of my photos. I hope you enjoy them!
       </p>
     </motion.section>
   );
